@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: item-share_development
+  database: item_share_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
